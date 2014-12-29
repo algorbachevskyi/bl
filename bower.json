@@ -1,0 +1,21 @@
+{
+  "name": "babylonlib.com",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "Al Gor"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "polymer": "Polymer/polymer#~0.5.2"
+  }
+}
