@@ -1,0 +1,15 @@
+// variables:
+
+$mainColorOrange : #d65627;
+$mainColorYellow : #ffcf00;
+$mainBgColor : #fff;
+
+
+body {
+  font-family: 'OpenSansLightRegular';
+}
+
+.main-toolbar {
+  box-shadow: 0 1px 5px rgba(0,0,0,.3);
+  background-color: $mainBgColor;
+}
