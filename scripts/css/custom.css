@@ -26,10 +26,30 @@ body {
     float: right;
     height: 64px;
     width: 180px;
+    position: relative;
+    right: 25px;
     background-image: url("../imgs/logo-bl.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0px 8px; }
+    .bl-nav .nav-logo .socials {
+      height: 55px;
+      width: 20px;
+      text-align: center;
+      float: right;
+      line-height: 16px;
+      position: relative;
+      top: 9px;
+      right: -28px;
+      color: #9da1a4; }
+      .bl-nav .nav-logo .socials i {
+        cursor: pointer; }
+      .bl-nav .nav-logo .socials .fa-facebook-square:hover {
+        color: #3b5998; }
+      .bl-nav .nav-logo .socials .fa-youtube-play:hover {
+        color: #de0020; }
+      .bl-nav .nav-logo .socials .fa-instagram:hover {
+        color: #dc8a4f; }
 
 @media (min-width: 768px) {
   .bl-nav .navbar-nav > li > a {

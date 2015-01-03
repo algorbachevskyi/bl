@@ -3,6 +3,7 @@ $mainColorOrange : #d65627;
 $mainColorYellow : #ffcf00;
 $mainColorBlack : #160f12;
 $mainColorGray : #7d8184;
+$mainColorLightGray : #9da1a4;
 $mainBgColor : #fff;
 
 body {
@@ -51,11 +52,47 @@ body {
     float: right;
     height: 64px;
     width: 180px;
+    position: relative;
+    right: 25px;
 
     background-image: url("../imgs/logo-bl.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0px 8px;
+
+    .socials {
+      height: 55px;
+      width: 20px;
+      text-align: center;
+      float: right;
+      line-height: 16px;
+      position: relative;
+      top: 9px;
+      right: -28px;
+      color: $mainColorLightGray;
+
+      i {
+        cursor: pointer;
+      }
+
+      .fa-facebook-square {
+        &:hover {
+          color: #3b5998
+        }
+      }
+
+      .fa-youtube-play {
+        &:hover {
+          color: #de0020
+        }
+      }
+
+      .fa-instagram {
+        &:hover {
+          color: #dc8a4f
+        }
+      }
+    }
   }
 }
 
