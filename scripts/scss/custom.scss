@@ -156,6 +156,10 @@ body {
   .hidden-mobile {
     display: none;
   }
+
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6 {
+    width: 100%;
+  }
 }
 
 
@@ -329,13 +333,14 @@ core-tooltip.fancy:focus::shadow .core-tooltip {
   }
 }
 
-//-----------------------------
-/*   BOOKS PAGE               /
+//------------------------------
+/*   BOOKS PAGE                /
 ------------------------------*/
 
 #books {
 
   padding-top: 20px;
+  padding-bottom: 30px;
 
   .bl-book {
     margin: 10px 0;
@@ -349,13 +354,14 @@ core-tooltip.fancy:focus::shadow .core-tooltip {
       border-radius: 2px;
 
       .image {
-        height: 80%;
+        height: 85%;
         background-image: url("../imgs/bookcover.jpg");
         background-size: cover;
+        border-radius: 2px 2px 0 0;
       }
 
       .info {
-        height: 20%;
+        height: 15%;
         border-top: 1px solid #DBDBDB;
         padding: 5px 10px 5px;
         color: $mainColorGray;
@@ -377,7 +383,7 @@ core-tooltip.fancy:focus::shadow .core-tooltip {
 
         paper-fab {
           position: absolute;
-          top: 75%;
+          top: 80%;
           right: 9px;
         }
       }
@@ -385,6 +391,157 @@ core-tooltip.fancy:focus::shadow .core-tooltip {
   }
 }
 
+//------------------------------
+/*   AUTHORS PAGE              /
+------------------------------*/
+
+#authors {
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  .bl-author {
+    margin: 10px 0;
+
+    .card {
+      display: inline-block;
+      background: white;
+      box-sizing: border-box;
+      width: 100%;
+      height: 250px;
+      border-radius: 2px;
+
+      .image {
+        height: 100%;
+        background-image: url("../imgs/vonnegut.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 2px 2px 0 0;
+      }
+
+      .info {
+        height: 20%;
+//        border-top: 1px solid #DBDBDB;
+        padding: 12px 15px;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        p {
+          font-size: 18px;
+          margin: 0;
+          
+          &.value {
+            position: absolute;
+            top: 13px;
+            opacity: 0.65;
+            right: 80px;
+          }
+        }
+
+        paper-icon-button {
+          position: absolute;
+          top: 6px;
+          opacity: 0.65;
+
+
+          &.inform {
+            right: 3px;
+
+          }
+
+          &.lib {
+            right: 46px;
+          }
+        }
+
+        paper-fab {
+          position: absolute;
+          top: 80%;
+          right: 9px;
+        }
+      }
+    }
+  }
+}
+
+//------------------------------
+/*   TRANSLATORS PAGE          /
+------------------------------*/
+
+#translators {
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  .bl-translator {
+    margin: 10px 0;
+
+    .card {
+      display: inline-block;
+      background: white;
+      box-sizing: border-box;
+      width: 100%;
+      height: 250px;
+      border-radius: 2px;
+
+      .image {
+        height: 100%;
+        background-image: url("../imgs/voldibrov.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 2px 2px 0 0;
+      }
+
+      .info {
+        height: 20%;
+//        border-top: 1px solid #DBDBDB;
+        padding: 12px 15px;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        p {
+          font-size: 18px;
+          margin: 0;
+
+          &.value {
+            position: absolute;
+            top: 13px;
+            opacity: 0.65;
+            right: 80px;
+          }
+        }
+
+        paper-icon-button {
+          position: absolute;
+          top: 6px;
+          opacity: 0.65;
+
+
+          &.inform {
+            right: 3px;
+
+          }
+
+          &.lib {
+            right: 46px;
+          }
+        }
+
+        paper-fab {
+          position: absolute;
+          top: 80%;
+          right: 9px;
+        }
+      }
+    }
+  }
+}
 
 
 
